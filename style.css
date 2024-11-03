@@ -1,0 +1,86 @@
+/*название*/
+.header{
+    background-color: azure;
+    width:250px;
+    margin:auto;
+    padding: 25px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+/*основной контейнер*/
+.container{
+    background-color: beige;
+    width:250px;
+    margin:auto;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row{
+    display: flex;
+}
+
+.text-insert{
+    width: 165px;
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px rgb(162, 201, 245);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgb(105, 105, 105);
+}
+
+.butt{
+    width: 40px;
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px rgb(162, 201, 245);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgb(105, 105, 105);
+}
+
+/*состояния цифровых кнопок */
+.butt-num{
+    background-color: azure;
+}
+
+.butt-num:hover{
+    background-color: rgb(171, 255, 171);
+}
+
+.butt-num:active{
+    background-color: rgb(255, 171, 171);
+}
+
+/*состояния кнопки сброса */
+.butt-numC{
+    background-color: red;
+    color:white;
+}
+
+.butt-numC:hover{
+    background-color: green;
+}
+
+.butt-numC:active{
+    background-color: rgb(115, 190, 1);
+}
+
+/*состояния знаковых кнопок */
+.butt-sign{
+    background-color: rgb(187, 252, 252);
+}
+
+.butt-sign:hover{
+    background-color: rgb(246, 213, 250);
+}
+
+.butt-sign:active{
+    background-color: rgb(255, 171, 171);
+}
+
